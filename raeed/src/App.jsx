@@ -2,16 +2,18 @@ import Greet from "./Greet"
 import Material from "./Material"
 import Raeed from "./Raeed"
 import State from "./State"
+import Ui from "./Ui"
 
 function App() {
 
 
   return (
     <>
-      <Raeed/>
+      {/* <Raeed/>
       <Greet name="world"/>
       <State/>
-      <Material/>
+      <Material/> */}
+      <Ui/>
     </>
   )
 }
